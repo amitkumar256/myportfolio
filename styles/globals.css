@@ -2,3 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+.anim-typewriter {
+    position: relative;
+    width: 24em;
+    margin: 0 auto 0 0;
+    /* border-right: 2px solid rgba(255, 255, 255, .75); */
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden; 
+    padding-bottom: 20px;
+    animation: typewriter 1s steps(15) 1s 1 normal both,
+        blinkTextCursor 800ms steps(15) infinite normal;
+    line-height: 1.5;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0em;
+    }
+
+    to {
+        width: 12em;
+    }
+}
+

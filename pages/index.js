@@ -4,7 +4,7 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div className='bg-slate-700 h-screen'>
+    <div className='bg-slate-700  '>
     <Navbar/>
     <About/>
     </div>
