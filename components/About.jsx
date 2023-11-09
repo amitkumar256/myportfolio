@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="max-w-[1280px]  mx-4 xl:mx-auto mt-10 md:mt-14">
       <h1 className="anim-typewriter text-4xl md:text-6xl text-transparent bg-gradient-to-r from-orange-400 to-red-600  bg-clip-text">
-        i bring idea's to web.
+        i bring idea&apos;s to web.
       </h1>
       <button className="p-2 mt-2 rounded-md font-bold bg-blue-300 hover:bg-blue-600 text-lg">
         Resume
