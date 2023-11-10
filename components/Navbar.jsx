@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="h-14 text-white bg-black max-w-[1280px] mx-2 sm:mx-4 xl:mx-auto flex items-center justify-between px-8 font-bold text-base md:text-lg ">
+    <div className="h-14   text-white  bg-black max-w-[1280px] mx-2 sm:mx-4 xl:mx-auto flex items-center justify-between px-8 font-bold text-base md:text-lg ">
       <div className="bg-white cursor-pointer">
         <Image
           src={"/Images/Navbrand.png"}
@@ -47,13 +47,13 @@ const Navbar = () => {
         </div>
       </div>
       {/* mobile */}
-      <nav className="sm:hidden bg-yellow-600 flex">
+      <nav className="sm:hidden  flex">
         <button
           onClick={() => setIsOpen(!isOpen)}
           type="button"
           className="mobileNavbar  relative z-[100]  "
         >
-          <div className="fixed  h-3.5 w-5">
+          <div className=" h-3.5 w-5">
             <div
               className={` h-0.5   w-5 origin-top-left ease-in duration-200 rounded-md ${
                 isOpen

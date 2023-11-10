@@ -7,15 +7,18 @@ const About = () => {
       <h1 className="anim-typewriter text-4xl md:text-6xl text-transparent bg-gradient-to-r from-orange-400 to-red-600  bg-clip-text">
         i bring idea&apos;s to web.
       </h1>
-      <button className=" p-1 sm:p-2 mt-5 rounded-md font-bold bg-blue-300 hover:bg-blue-600 text-base sm:text-lg">
+      <button
+        className=" p-1 sm:p-2 mt-5 rounded-md font-bold bg-blue-300 hover:bg-blue-600 text-base sm:text-lg"
+        onClick={() => window.open("/resume.pdf")}
+      >
         Resume
       </button>
       <div className="flex mt-10 justify-center">
         <h1 className="text-white font-bold text-3xl">About me</h1>
       </div>
-      *{" "}
+
       <div className="pt-10 flex flex-col-reverse sm:flex-row sm:justify-evenly items-center">
-        <p className="text-2xl text-yellow-100 sm:w-1/3 sm:leading-10 sm:tracking-wide pt-4 sm:pt-0">
+        <p className="text-xl sm:text-2xl text-yellow-100 sm:w-1/3 leading-8 sm:leading-10 sm:tracking-wide pt-4 sm:pt-0">
           Hi my name is <span className="text-3xl sm:text-4xl">Amit Kumar</span>{" "}
           , A passionate Front-End Developer. I like to Design and Develope
           Beautiful User Friendly Websites. I am a quick learner and a team
@@ -25,8 +28,7 @@ const About = () => {
         <div className="  ">
           <Image src={"/Images/profile.jpeg"} height={320} width={320} />
         </div>
-      </div>{" "}
-      *
+      </div>
     </div>
   );
 };
