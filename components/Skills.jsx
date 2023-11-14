@@ -28,7 +28,7 @@ const Skills = () => {
             <Image src={"/Images/next.png"} height={120} width={120} />
           </div>
           <div className="java flex">
-            <Image src={"/Images/java.jpg"} height={120} width={120} />
+            <Image src={"/Images/javalogo.jpg"} height={120} width={120} />
           </div>
           <div className="c flex">
             <Image src={"/Images/c.cms"} height={120} width={120} />

@@ -23,6 +23,21 @@ const Project = () => {
 
           <Image src={"/Images/loop.png"} height={450} width={450} />
         </div>
+        <div className="pt-10 flex-col-reverse sm:flex-row flex justify-between items-center">
+          <div className="sm:w-2/5 ">
+            <h1 className="text-2xl sm:text-3xl text-white font-bold pt-4 sm:pt-0 pb-4">
+              Notes-taking app
+            </h1>
+            <p className="text-xl  sm:text-2xl text-yellow-100 leading-8 sm:leading-10 sm:tracking-wide pt-4 sm:pt-0">
+              This is the notes taking web application , in which user can save
+              their tasks with title also if user wants to remove tasks they can
+              easily remove , i fully design and develop this project from
+              scratch.
+            </p>
+          </div>
+
+          <Image src={"/Images/notes.png"} height={450} width={450} />
+        </div>
       </div>
     </div>
   );
