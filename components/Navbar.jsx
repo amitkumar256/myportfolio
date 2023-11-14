@@ -33,13 +33,13 @@ const Navbar = () => {
       <div className="hidden sm:block">
         <div className="flex  space-x-4 cursor-pointer  ">
           <div className=" hover:scale-105 ">
-            <p>About</p>
+            <a href="#about">About</a>
           </div>
           <div className=" hover:scale-105 ">
-            <p>Skills</p>
+            <a href="#skill">Skills</a>
           </div>
           <div className=" hover:scale-105 ">
-            <p>Projects</p>
+            <a href="#project">Projects</a>
           </div>
           <div className=" hover:scale-105 ">
             <p>Contact</p>
