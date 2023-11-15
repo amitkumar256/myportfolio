@@ -4,7 +4,7 @@ import Image from "next/image";
 const Contact = () => {
   return (
     <div
-      className="max-w-[1280px]  mx-4 xl:mx-auto mt-10 md:mt-14"
+      className="max-w-[1208px]  mx-4 xl:mx-auto mt-10 md:mt-14"
       id="contact"
     >
       <div className="flex mt-10 justify-center" id="about">

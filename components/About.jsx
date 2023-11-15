@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="max-w-[1280px]  mx-4 xl:mx-auto mt-10 md:mt-14">
+    <div className="max-w-[1208px]  mx-4 xl:mx-auto mt-10 md:mt-14">
       <h1 className="anim-typewriter text-4xl md:text-6xl text-transparent bg-gradient-to-r from-orange-400 to-red-600  bg-clip-text">
         i bring idea&apos;s to web.
       </h1>
