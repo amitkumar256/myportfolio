@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="flex mt-10 justify-center" id="about">
         <h1 className="text-white font-bold text-3xl">Contact me</h1>
       </div>
-      <div className="pt-14 pb-10 flex-col items-center justify-center flex md:flex-row md:justify-between">
+      <div className=" pt-7 md:pt-14 pb-10 flex-col items-center justify-center flex md:flex-row md:justify-between">
         <Image
           src={"/Images/Navbrand.png"}
           height={85}
