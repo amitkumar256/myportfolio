@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="h-14   text-white  bg-black max-w-[1208px] mx-2 sm:mx-4 xl:mx-auto flex items-center justify-between px-8 font-bold text-base md:text-lg ">
+    <div className="h-14   text-white  bg-black max-w-[1208px] xl:mx-auto flex items-center justify-between px-8 font-bold text-base md:text-lg ">
       <div className="bg-white cursor-pointer">
         <Image
           src={"/Images/Navbrand.png"}
