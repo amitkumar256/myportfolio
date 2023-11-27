@@ -1,5 +1,6 @@
 import About from '@/components/About'
 import Contact from '@/components/Contact'
+import Form from '@/components/Form'
 import Navbar from '@/components/Navbar'
 import Project from '@/components/Project'
 import Skills from '@/components/Skills'
@@ -12,6 +13,7 @@ const index = () => {
     <About/>
     <Skills/>
     <Project/>
+    <Form/>
     <Contact/>
     </div>
 

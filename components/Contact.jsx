@@ -7,9 +7,6 @@ const Contact = () => {
       className="max-w-[1208px]  mx-4 xl:mx-auto mt-10 md:mt-14"
       id="contact"
     >
-      <div className="flex mt-10 justify-center" id="about">
-        <h1 className="text-white font-bold text-3xl">Contact me</h1>
-      </div>
       <div className=" pt-7 md:pt-14 pb-10 flex-col items-center justify-center flex md:flex-row md:justify-between">
         <Image
           src={"/Images/Navbrand.png"}
