@@ -24,6 +24,11 @@ const Form = () => {
 
       if (response.status === 201) {
         console.log("Form data submitted successfully");
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+        });
       } else {
         console.error("Error submitting form data:", response.statusText);
       }
