@@ -38,7 +38,7 @@ const Form = () => {
   };
 
   return (
-    <div className="max-w-[1208px] flex flex-col pt-2 border-2 border-blue-400    mx-4 xl:mx-auto mt-10 md:mt-14">
+    <div className="max-w-[1208px] flex flex-col pt-4 pb-4 border-2 border-blue-400 rounded-tl-[50px] rounded-br-[45px]  mx-4 xl:mx-auto mt-10 md:mt-14">
       <div className="flex justify-center items-center text-4xl font-bold text-white">
         Contact Me
       </div>
