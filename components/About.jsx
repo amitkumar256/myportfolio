@@ -20,7 +20,7 @@ const About = () => {
       <div className="pt-10 flex flex-col-reverse sm:flex-row sm:justify-evenly items-center">
         <p className="text-xl sm:text-2xl text-yellow-100 sm:w-1/3 leading-8 sm:leading-10 sm:tracking-wide pt-4 sm:pt-0">
           Hi my name is <span className="text-3xl sm:text-4xl">Amit Kumar</span>{" "}
-          , A passionate Front-End Developer. I like to Design and Develope
+          , A passionate Front-End Developer. I like to Design and Develop
           Beautiful User Friendly Websites. I am a quick learner and a team
           player, and i am confident that i can be a valuable asset to any web
           development team.
