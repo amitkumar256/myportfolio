@@ -21,12 +21,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="h-14   text-white  bg-black max-w-[1208px] xl:mx-auto flex items-center justify-between px-8 font-bold text-base md:text-lg ">
-      <div className="bg-white cursor-pointer">
+    <div className=" pt-5   text-white  bg-black max-w-[1208px] xl:mx-auto flex items-center justify-between mx-4 font-bold text-base md:text-lg ">
+      <div className=" cursor-pointer">
         <Image
           src={"/Images/Navbrand.png"}
-          height={45}
-          width={45}
+          height={55}
+          width={55}
           className=" rounded-lg"
         />
       </div>

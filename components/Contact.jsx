@@ -14,7 +14,7 @@ const Contact = () => {
           width={85}
           className=" rounded-lg"
         />
-        <div className=" pt-5 md:pt-0">
+        <div className="  pt-10 md:pt-0">
           <div className="flex space-x-2">
             <a href="https://www.instagram.com/the_amitkumar_/">
               <Image src={"/Images/insta.png"} height={40} width={40} />
@@ -27,7 +27,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="pt-5 md:pt-0">
+        <div className="pt-8 md:pt-0">
           <p className="text-orange-400 font-xl font-bold">
             ak256375@gmail.com
           </p>

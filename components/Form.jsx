@@ -38,11 +38,11 @@ const Form = () => {
   };
 
   return (
-    <div className="max-w-[1208px] flex flex-col    mx-4 xl:mx-auto mt-10 md:mt-14">
+    <div className="max-w-[1208px] flex flex-col pt-2 border-2 border-blue-400    mx-4 xl:mx-auto mt-10 md:mt-14">
       <div className="flex justify-center items-center text-4xl font-bold text-white">
         Contact Me
       </div>
-      <div className="bg-black mt-10 rounded-3xl p-5 sm:p-10">
+      <div className="bg-black mt-5 rounded-3xl p-5 sm:p-10">
         <form onSubmit={handleSubmit} className="">
           <div className="flex justify-center space-x-10 mt-10">
             <label className="text-white text-xl font-bold">Name:</label>
