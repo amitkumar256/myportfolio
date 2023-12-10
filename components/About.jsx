@@ -8,7 +8,7 @@ const About = () => {
         I bring idea&apos;s to web.
       </h1>
       <button
-        className=" p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
+        className="w-36 p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
         onClick={() => window.open("/resume.pdf")}
       >
         Resume

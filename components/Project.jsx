@@ -19,12 +19,22 @@ const Project = () => {
               contribution is i design the landing page and some other front-end
               parts.
             </p>
-            <button
-              className=" p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
-              onClick={() => window.open("https://formpr-chi.vercel.app/")}
-            >
-              GO Live
-            </button>
+            <div className="flex justify-between">
+              <button
+                className="w-36 p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
+                onClick={() => window.open("https://formpr-chi.vercel.app/")}
+              >
+                GO Live
+              </button>
+              <button
+                className="w-36 mr-3 p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
+                onClick={() =>
+                  window.open("https://github.com/amitkumar256/formpr")
+                }
+              >
+                Source Code
+              </button>
+            </div>
           </div>
 
           <Image src={"/Images/loop.png"} height={450} width={450} />
@@ -40,14 +50,26 @@ const Project = () => {
               easily remove , i fully design and develop this project from
               scratch.
             </p>
-            <button
-              className=" p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
-              onClick={() =>
-                window.open("https://notes-taking-app-seven-dun.vercel.app/")
-              }
-            >
-              GO Live
-            </button>
+            <div className="flex justify-between">
+              <button
+                className="w-36 p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
+                onClick={() =>
+                  window.open("https://notes-taking-app-seven-dun.vercel.app/")
+                }
+              >
+                GO Live
+              </button>
+              <button
+                className="w-36 mr-3 p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
+                onClick={() =>
+                  window.open(
+                    "https://github.com/amitkumar256/Notes-taking-app"
+                  )
+                }
+              >
+                Source Code
+              </button>
+            </div>
           </div>
 
           <Image src={"/Images/notes.png"} height={450} width={450} />

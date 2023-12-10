@@ -80,6 +80,8 @@ const Form = () => {
             <button
               className="
           p-1
+          w-36
+          sm:w-44
           sm:p-2
           mt-5
           rounded-md
