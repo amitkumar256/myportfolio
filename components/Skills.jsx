@@ -19,7 +19,7 @@ const Skills = () => {
             <Image src={"/Images/javascript.png"} height={120} width={120} />
           </div>
           <div className="tailwind flex">
-            <Image src={"/Images/tail.jpg"} height={120} width={120} />
+            <Image src={"/Images/tail.png"} height={120} width={120} />
           </div>
         </div>
 
@@ -31,7 +31,7 @@ const Skills = () => {
             <Image src={"/Images/java-logo-1.png"} height={120} width={120} />
           </div>
           <div className="c flex">
-            <Image src={"/Images/c.cms"} height={120} width={120} />
+            <Image src={"/Images/c.png"} height={120} width={120} />
           </div>
           <div className="dbms flex">
             <Image src={"/Images/dbms.png"} height={120} width={120} />
