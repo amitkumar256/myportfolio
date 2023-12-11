@@ -8,7 +8,7 @@ const About = () => {
         I bring idea&apos;s to web.
       </h1>
       <button
-        className="w-36 p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
+        className="w-32 p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-lg sm:text-2xl"
         onClick={() => window.open("/resume.pdf")}
       >
         Resume
@@ -25,8 +25,13 @@ const About = () => {
           player, and i am confident that i can be a valuable asset to any web
           development team.
         </p>
-        <div className="  ">
-          <Image src={"/Images/profile.jpeg"} height={320} width={320} />
+        <div className=" ">
+          <Image
+            className=""
+            src={"/Images/profile.jpeg"}
+            height={320}
+            width={320}
+          />
         </div>
       </div>
     </div>

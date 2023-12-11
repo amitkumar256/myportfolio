@@ -21,7 +21,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" pt-5   text-white  bg-black max-w-[1208px] xl:mx-auto flex items-center justify-between mx-4 font-bold text-base md:text-lg ">
+    <div
+      className={`pt-5   text-white  bg-black max-w-[1208px] xl:mx-auto flex items-center justify-between mx-4 font-bold text-base md:text-lg`}
+    >
       <div className=" cursor-pointer">
         <Image
           src={"/Images/Navbrand.png"}
@@ -47,17 +49,17 @@ const Navbar = () => {
         </div>
       </div>
       {/* mobile */}
-      <nav className="sm:hidden  flex">
+      <nav className={`sm:hidden    `}>
         <button
           onClick={() => setIsOpen(!isOpen)}
           type="button"
           className="mobileNavbar  relative z-[100]  "
         >
-          <div className=" h-3.5 w-5">
+          <div className={`h-3.5 w-5 `}>
             <div
               className={` h-0.5   w-5 origin-top-left ease-in duration-200 rounded-md ${
                 isOpen
-                  ? "rotate-45 translate-x-px bg-black"
+                  ? "rotate-45 translate-x-px bg-white"
                   : "rotate-0 bg-white"
               }`}
             />
@@ -69,7 +71,7 @@ const Navbar = () => {
             <div
               className={` h-0.5 w-5  ease-in duration-200  rounded-md mt-1  ${
                 isOpen
-                  ? "-rotate-45 -translate-x-0.5 bg-black"
+                  ? "-rotate-45 -translate-x-0.5 bg-white"
                   : "rotate-0 bg-white"
               }`}
             />
@@ -83,9 +85,9 @@ const Navbar = () => {
               whileInView="animate"
               exit="exit"
               viewport={{ once: false }}
-              className="fixed ease-in duration-800  w-full h-screen top-0 right-0 bg-gradient-to-br from-[#96FFAD] to-[#96FFAD] py-1 px-1 shadow-lg bg-white text-black z-50"
+              className="fixed ease-in duration-800  w-full h-screen top-0 right-0 bg-gradient-to-br from-[#96FFAD] to-[#96FFAD] py-2 px-2 shadow-lg bg-black text-white z-50"
             >
-              <div className=" w-full h-full bg-white">
+              <div className=" w-full h-full bg-black">
                 <div className="flex flex-col h-full  content-between">
                   <div className="flex flex-col mx-auto mt-20 text-center font-oswald tracking-light w-10/12 z-20">
                     <div className="nav-link-container  py-2  border-b-2 border-white ">
