@@ -3,10 +3,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div
-      className="max-w-[1208px]  mx-4 xl:mx-auto mt-10 md:mt-14"
-      id="contact"
-    >
+    <div className="max-w-[1208px]  mx-4 xl:mx-auto mt-10 md:mt-14">
       <div className=" pt-7 md:pt-14 pb-10 flex-col items-center justify-center flex md:flex-row md:justify-between">
         <Image
           src={"/Images/Navbrand.png"}
