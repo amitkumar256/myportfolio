@@ -22,13 +22,13 @@ const Navbar = () => {
 
   return (
     <div
-      className={`pt-5   text-white  bg-black max-w-[1208px] xl:mx-auto flex items-center justify-between mx-4 font-bold text-base md:text-lg`}
+      className={`pt-5 pb-5   text-white  bg-black max-w-[1250px] xl:mx-auto flex items-center justify-between mx-4 font-bold text-base md:text-lg `}
     >
-      <div className=" cursor-pointer">
+      <div className=" cursor-pointer ">
         <Image
           src={"/Images/Navbrand.png"}
-          height={55}
-          width={55}
+          height={60}
+          width={60}
           className=" rounded-lg"
         />
       </div>
