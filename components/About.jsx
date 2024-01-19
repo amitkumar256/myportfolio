@@ -19,8 +19,8 @@ const About = () => {
             </p>
             <p className="text-xl sm:text-2xl text-yellow-100  leading-8 sm:leading-10 sm:tracking-wide pt-4 ">
               My love for clean and efficient code is matched only by my
-              dedication to crafting visually appealing websites. Whether it's
-              designing an intuitive user interface or diving into the
+              dedication to crafting visually appealing websites. Whether
+              it&apos;s designing an intuitive user interface or diving into the
               intricacies of frontend development.
             </p>
           </div>
