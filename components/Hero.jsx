@@ -7,7 +7,7 @@ const Hero = () => {
       style={{ backgroundImage: "url('/images/pxfuel.jpg')" }}
     >
       <div className="max-w-[1250px]  mx-4 xl:mx-auto pt-10 md:pt-14">
-        <h1 className="anim-typewriter font-serif text-4xl md:text-6xl text-transparent bg-gradient-to-r from-orange-400 to-red-600  bg-clip-text">
+        <h1 className="anim-typewriter font-serif text-3xl md:text-6xl text-transparent bg-gradient-to-r from-orange-400 to-red-600  bg-clip-text">
           I bring idea&apos;s to web
         </h1>
         <button
