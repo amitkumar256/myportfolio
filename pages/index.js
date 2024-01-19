@@ -11,7 +11,6 @@ const index = () => {
   return (
     <div className='bg-black  '>
     <Navbar/>
-    <Hero/>
     <About/>
     <Skills/>
     <Project/>
