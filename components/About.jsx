@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       className="bg-cover bg-center "
-      style={{ backgroundImage: "url('/images/pxfuel.jpg')" }}
+      style={{ backgroundImage: "url('/Images/pxfuel.jpg')" }}
     >
       <div className="max-w-[1250px] mx-4  xl:mx-auto pt-10 pb-5 md:pt-5">
         <div className="pt-10  flex flex-col-reverse sm:flex-row sm:justify-between items-center   ">
