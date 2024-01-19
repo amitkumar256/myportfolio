@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`pt-1 pb-1 sm:pt-3 sm:pb-3   text-white  bg-black max-w-[1250px] xl:mx-auto flex items-center justify-between mx-4 font-bold text-base md:text-lg `}
+      className={`pt-2 pb-2 sm:pt-3 sm:pb-3   text-white  bg-black max-w-[1250px] xl:mx-auto flex items-center justify-between mx-4 font-bold text-base md:text-lg `}
     >
       <div className=" cursor-pointer ">
         <Image
