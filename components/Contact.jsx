@@ -21,24 +21,24 @@ const Contact = () => {
                 <Image
                   className="hover:scale-110 transition-transform duration-500"
                   src={"/Images/insta.png"}
-                  height={40}
-                  width={40}
+                  height={45}
+                  width={45}
                 />
               </a>
               <a href="https://wa.link/oolxhy">
                 <Image
                   className="hover:scale-110 transition-transform duration-500"
                   src={"/Images/watsp.png"}
-                  height={40}
-                  width={40}
+                  height={45}
+                  width={45}
                 />
               </a>
               <a href="https://www.linkedin.com/in/amit-kumar-311025211/">
                 <Image
                   className="hover:scale-110 transition-transform duration-500"
                   src={"/Images/linked.png"}
-                  height={40}
-                  width={40}
+                  height={45}
+                  width={45}
                 />
               </a>
             </div>
