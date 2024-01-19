@@ -40,11 +40,15 @@ const Contact = () => {
           </div>
         </div>
         <div className="pt-8 md:pt-0">
-          <p className="text-orange-400 font-xl font-bold">
+          <p className="text-transparent bg-gradient-to-r from-orange-400 to-red-600  bg-clip-text text-2xl font-bold">
             ak256375@gmail.com
           </p>
-          <p className="text-orange-400 font-xl font-bold">ranchi,jharkhand</p>
-          <p className="text-orange-400 font-xl font-bold">ph-8757672975</p>
+          <p className="text-transparent bg-gradient-to-r from-orange-400 to-red-600  bg-clip-text text-2xl font-bold">
+            ranchi,jharkhand
+          </p>
+          <p className="text-transparent bg-gradient-to-r from-orange-400 to-red-600  bg-clip-text  text-2xl font-bold">
+            ph-8757672975
+          </p>
         </div>
       </div>
     </div>

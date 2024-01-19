@@ -81,7 +81,8 @@ const Form = () => {
           </div>
           <div className="flex justify-center mt-10">
             <button
-              className="
+              className="hover:scale-110 transition-transform
+              duration-500 hover:text-white
           p-1
           w-36
           sm:w-44

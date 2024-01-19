@@ -33,17 +33,17 @@ const Navbar = () => {
         />
       </div>
       <div className="hidden sm:block">
-        <div className="flex  space-x-4 cursor-pointer  ">
-          <div className=" hover:scale-105 ">
+        <div className="flex  space-x-4 cursor-pointer text-xl  ">
+          <div className=" hover:scale-110 transition-transform duration-500 ">
             <a href="#about">About</a>
           </div>
-          <div className=" hover:scale-105 ">
+          <div className="hover:scale-110 transition-transform duration-500 ">
             <a href="#skill">Skills</a>
           </div>
-          <div className=" hover:scale-105 ">
+          <div className=" hover:scale-110 transition-transform duration-500 ">
             <a href="#project">Projects</a>
           </div>
-          <div className=" hover:scale-105 ">
+          <div className="hover:scale-110 transition-transform duration-500 ">
             <a href="#contact">Contact</a>
           </div>
         </div>

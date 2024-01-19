@@ -21,13 +21,17 @@ const Project = () => {
             </p>
             <div className="flex justify-between">
               <button
-                className="w-36 p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
+                className="hover:scale-105
+                transition-transform
+                duration-500  w-32 p-1  mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
                 onClick={() => window.open("https://formpr-chi.vercel.app/")}
               >
                 GO Live
               </button>
               <button
-                className="w-36 mr-3 p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
+                className="hover:scale-105
+                transition-transform
+                duration-500  w-32 p-1  mr-3 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
                 onClick={() =>
                   window.open("https://github.com/amitkumar256/formpr")
                 }
@@ -36,8 +40,14 @@ const Project = () => {
               </button>
             </div>
           </div>
-
-          <Image src={"/Images/loop.png"} height={450} width={450} />
+          <div className="bg-gradient-to-r from-orange-400 to-red-600 ">
+            <Image
+              className="p-1"
+              src={"/Images/loop.png"}
+              height={450}
+              width={450}
+            />
+          </div>
         </div>
         <div className="pt-10 flex-col-reverse sm:flex-row flex justify-between items-center">
           <div className="sm:w-2/5 ">
@@ -52,7 +62,9 @@ const Project = () => {
             </p>
             <div className="flex justify-between">
               <button
-                className="w-36 p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
+                className="hover:scale-105
+                transition-transform
+                duration-500  w-32 p-1  mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
                 onClick={() =>
                   window.open("https://notes-taking-app-seven-dun.vercel.app/")
                 }
@@ -60,7 +72,9 @@ const Project = () => {
                 GO Live
               </button>
               <button
-                className="w-36 mr-3 p-1 sm:p-2 mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
+                className="hover:scale-105
+                transition-transform
+                duration-500  w-32 p-1  mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
                 onClick={() =>
                   window.open(
                     "https://github.com/amitkumar256/Notes-taking-app"
@@ -71,8 +85,14 @@ const Project = () => {
               </button>
             </div>
           </div>
-
-          <Image src={"/Images/notes.png"} height={450} width={450} />
+          <div className="bg-gradient-to-r from-orange-400 to-red-600">
+            <Image
+              className="p-1"
+              src={"/Images/notes.png"}
+              height={450}
+              width={450}
+            />
+          </div>
         </div>
       </div>
     </div>
