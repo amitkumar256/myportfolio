@@ -48,7 +48,7 @@ const About = () => {
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1.2 }}
+              transition={{ duration: 1.5 }}
               className="text-xl font-serif sm:text-2xl text-yellow-100  leading-8 sm:leading-10 sm:tracking-wide pt-4 "
             >
               My love for clean and efficient code is matched only by my
