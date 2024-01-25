@@ -5,12 +5,14 @@ const Project = () => {
   return (
     <div className="max-w-[1250px] pb-10  mx-4 xl:mx-auto mt-10 md:mt-14">
       <div className="flex mt-10 justify-center" id="project">
-        <h1 className="text-white font-bold text-3xl md:text-5xl">Projects</h1>
+        <h1 className="shine-text text-white font-bold text-3xl md:text-5xl">
+          Projects
+        </h1>
       </div>{" "}
       <div className="pt-10">
         <div className="pt-10 flex-col-reverse lg:flex-row flex sm:justify-normal sm:items-start justify-center items-center lg:justify-between lg:items-center">
           <div className="lg:w-3/5 ">
-            <h1 className="text-2xl sm:text-3xl text-white font-bold pt-4 sm:pt-0 pb-4">
+            <h1 className=" text-2xl sm:text-3xl text-white font-bold pt-4 sm:pt-0 pb-4">
               Loop
             </h1>
             <p className="text-xl  sm:text-2xl text-yellow-100 leading-8 sm:leading-10 sm:tracking-wide pt-4 sm:pt-0">

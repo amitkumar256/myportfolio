@@ -21,13 +21,13 @@ const About = () => {
           I bring idea&apos;s to web
         </h1>
         <button
-          className="w-32 p-1 sm:p-2 mt-5 rounded-[100px] hover:scale-110 font-semibold font-serif bg-gradient-to-r from-orange-400 to-red-600    text-lg sm:text-2xl transition-transform duration-500"
+          className=" w-32 p-1 sm:p-2 mt-5 rounded-[100px] hover:scale-110 font-semibold font-serif bg-gradient-to-r from-orange-400 to-red-600    text-lg sm:text-2xl transition-transform duration-500"
           onClick={() => window.open("/resume.pdf")}
         >
           Resume
         </button>
         <div className="flex mt-10 justify-center" id="about">
-          <h1 className="text-white font-bold font-serif text-3xl md:text-5xl">
+          <h1 className="shine-text text-white font-bold font-serif text-3xl md:text-5xl">
             About me
           </h1>
         </div>
