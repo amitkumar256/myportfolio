@@ -14,10 +14,11 @@ const Project = () => {
               Loop
             </h1>
             <p className="text-xl  sm:text-2xl text-yellow-100 leading-8 sm:leading-10 sm:tracking-wide pt-4 sm:pt-0">
-              This is the E-commerce website , in which user can save their
-              contact details and buy their NFC build cards,in this project my
-              contribution is i design the landing page and some other front-end
-              parts.
+              This E-commerce website allows users to securely save their
+              contact details and purchase NFC-enabled cards. I played a key
+              role in designing the captivating landing page and enhancing
+              various front-end elements to ensure an engaging and seamless user
+              experience.
             </p>
             <div className="flex justify-between">
               <button
@@ -55,10 +56,11 @@ const Project = () => {
               Notes-taking app
             </h1>
             <p className="text-xl  sm:text-2xl text-yellow-100 leading-8 sm:leading-10 sm:tracking-wide pt-4 sm:pt-0">
-              This is the notes taking web application , in which user can save
-              their tasks with title also if user wants to remove tasks they can
-              easily remove , i fully design and develope this project from
-              scratch.
+              This web application serves as a comprehensive notes-taking
+              platform, empowering users to effortlessly save tasks along with
+              their titles. I took on the complete design and development of
+              this project from inception, creating a seamless and user-friendly
+              experience from scratch.
             </p>
             <div className="flex justify-between">
               <button
