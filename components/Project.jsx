@@ -8,8 +8,8 @@ const Project = () => {
         <h1 className="text-white font-bold text-3xl md:text-5xl">Projects</h1>
       </div>{" "}
       <div className="pt-10">
-        <div className="pt-10 flex-col-reverse sm:flex-row flex justify-between items-center">
-          <div className="sm:w-2/5 ">
+        <div className="pt-10 flex-col-reverse lg:flex-row flex sm:justify-normal sm:items-start justify-center items-center lg:justify-between lg:items-center">
+          <div className="lg:w-3/5 ">
             <h1 className="text-2xl sm:text-3xl text-white font-bold pt-4 sm:pt-0 pb-4">
               Loop
             </h1>
@@ -20,7 +20,7 @@ const Project = () => {
               various front-end elements to ensure an engaging and seamless user
               experience.
             </p>
-            <div className="flex justify-between">
+            <div className="flex gap-12">
               <button
                 className="hover:scale-105
                 transition-transform
@@ -41,17 +41,16 @@ const Project = () => {
               </button>
             </div>
           </div>
-          <div className="bg-gradient-to-r from-orange-400 to-red-600 ">
-            <Image
-              className="p-1"
-              src={"/Images/loop.png"}
-              height={450}
-              width={450}
-            />
-          </div>
+
+          <Image
+            className="p-1 bg-gradient-to-r from-orange-400 to-red-600 "
+            src={"/Images/loop.png"}
+            height={450}
+            width={450}
+          />
         </div>
-        <div className="pt-10 flex-col-reverse sm:flex-row flex justify-between items-center">
-          <div className="sm:w-2/5 ">
+        <div className="pt-10 flex-col-reverse lg:flex-row flex sm:justify-normal sm:items-start justify-center items-center lg:justify-between lg:items-center">
+          <div className="lg:w-3/5 ">
             <h1 className="text-2xl sm:text-3xl text-white font-bold pt-4 sm:pt-0 pb-4">
               Notes-taking app
             </h1>
@@ -62,7 +61,7 @@ const Project = () => {
               this project from inception, creating a seamless and user-friendly
               experience from scratch.
             </p>
-            <div className="flex justify-between">
+            <div className="flex gap-12">
               <button
                 className="hover:scale-105
                 transition-transform
@@ -87,14 +86,12 @@ const Project = () => {
               </button>
             </div>
           </div>
-          <div className="bg-gradient-to-r from-orange-400 to-red-600">
-            <Image
-              className="p-1"
-              src={"/Images/notes.png"}
-              height={450}
-              width={450}
-            />
-          </div>
+          <Image
+            className="p-1 bg-gradient-to-r from-orange-400 to-red-600"
+            src={"/Images/notes.png"}
+            height={450}
+            width={450}
+          />
         </div>
       </div>
     </div>
