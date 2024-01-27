@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <div className="max-w-[1250px] pb-10  mx-4 xl:mx-auto mt-10 md:mt-14">
       <div className="flex mt-10 justify-center" id="project">
-        <h1 className="shine-text text-white font-bold text-3xl md:text-5xl">
+        <h1 className="pb-2 font-serif shine-text text-white font-bold text-3xl md:text-5xl">
           Projects
         </h1>
       </div>{" "}
