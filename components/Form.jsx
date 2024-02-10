@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { toast } from "react-toastify";
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -7,7 +8,6 @@ const Form = () => {
     email: "",
     phone: "",
   });
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -29,11 +29,17 @@ const Form = () => {
           email: "",
           phone: "",
         });
+        toast.success("Your Data is saved.", {
+          position: "top-center",
+        });
       } else {
         console.error("Error submitting form data:", response.statusText);
       }
     } catch (error) {
       console.error("Error submitting form data:", error.message);
+      toast.info("something is wrong try again.", {
+        position: "top-center",
+      });
     }
   };
 
@@ -67,8 +73,11 @@ const Form = () => {
               value={formData.email}
               onChange={handleChange}
             />
+            {/* to check data store or not */}
+            {/* <div className="text-white text-xl">
+              {JSON.stringify(formData.name)}
+            </div> */}
           </div>
-
           <div className="flex justify-center space-x-10 mt-10">
             <label className="text-white text-xl font-bold">Phone:</label>
             <input
