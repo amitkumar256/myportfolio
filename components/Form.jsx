@@ -61,6 +61,7 @@ const Form = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
+              placeholder="Amit kumar"
             />
           </div>
 
@@ -72,6 +73,7 @@ const Form = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
+              placeholder="amit@gmail.com"
             />
             {/* to check data store or not */}
             {/* <div className="text-white text-xl">
@@ -86,6 +88,7 @@ const Form = () => {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
+              placeholder="804562384"
             />
           </div>
           <div className="flex justify-center mt-10">
