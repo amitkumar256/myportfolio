@@ -27,7 +27,7 @@ const About = () => {
           Resume
         </button>
         <div className="flex mt-10 justify-center" id="about">
-          <h1 className="shine-text text-white font-bold font-serif text-3xl md:text-5xl">
+          <h1 className="shine-text px-2 text-white font-bold font-serif text-3xl md:text-5xl">
             About me
           </h1>
         </div>

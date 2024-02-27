@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <div className="max-w-[1250px] pb-10  mx-4 xl:mx-auto mt-10 md:mt-14">
       <div className="flex mt-10 justify-center" id="project">
-        <h1 className="pb-2 font-serif shine-text text-white font-bold text-3xl md:text-5xl">
+        <h1 className="pb-2 font-serif px-2 shine-text text-white font-bold text-3xl md:text-5xl">
           Projects
         </h1>
       </div>{" "}
@@ -54,14 +54,13 @@ const Project = () => {
         <div className="pt-10 flex-col-reverse lg:flex-row flex sm:justify-normal sm:items-start justify-center items-center lg:justify-between lg:items-center">
           <div className="lg:w-3/5 ">
             <h1 className="text-2xl sm:text-3xl text-white font-bold pt-4 sm:pt-0 pb-4">
-              Notes-taking app
+              work-management app
             </h1>
             <p className="text-xl  sm:text-2xl text-yellow-100 leading-8 sm:leading-10 sm:tracking-wide pt-4 sm:pt-0">
-              This web application serves as a comprehensive notes-taking
-              platform, empowering users to effortlessly save tasks along with
-              their titles. I took on the complete design and development of
-              this project from inception, creating a seamless and user-friendly
-              experience from scratch.
+              I developed a user-friendly Work Management System where
+              individuals can create profiles, effectively save, and delete
+              tasks. The system prioritizes simplicity and efficiency, offering
+              users a seamless experience in organizing their work.
             </p>
             <div className="flex gap-12">
               <button
@@ -69,7 +68,9 @@ const Project = () => {
                 transition-transform
                 duration-500  w-32 p-1  mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
                 onClick={() =>
-                  window.open("https://notes-taking-app-seven-dun.vercel.app/")
+                  window.open(
+                    "https://work-management-a2je0af6x-amitkumar256.vercel.app/login"
+                  )
                 }
               >
                 GO Live
@@ -79,9 +80,7 @@ const Project = () => {
                 transition-transform
                 duration-500  w-32 p-1  mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
                 onClick={() =>
-                  window.open(
-                    "https://github.com/amitkumar256/Notes-taking-app"
-                  )
+                  window.open("https://github.com/amitkumar256/work-management")
                 }
               >
                 Source Code
@@ -90,7 +89,7 @@ const Project = () => {
           </div>
           <Image
             className="p-1 bg-gradient-to-r from-orange-400 to-red-600"
-            src={"/Images/notes.png"}
+            src={"/Images/workmanager.png"}
             height={450}
             width={450}
           />
