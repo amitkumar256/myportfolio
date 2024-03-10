@@ -12,8 +12,8 @@
     white-space: nowrap;
     overflow: hidden; 
     padding-bottom: 20px;
-    animation: typewriter 1s steps(15) 1s 1 normal both,
-        blinkTextCursor 500ms steps(15) infinite normal;
+    animation: typewriter 1s steps(15) 1.5s 1 normal both,
+        blinkTextCursor 700ms steps(15) infinite normal;
     line-height: 1.5;
 }
 
