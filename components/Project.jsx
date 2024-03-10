@@ -68,9 +68,7 @@ const Project = () => {
                 transition-transform
                 duration-500  w-32 p-1  mt-5 rounded-md font-bold bg-gradient-to-r from-orange-400 to-red-600    text-base sm:text-lg"
                 onClick={() =>
-                  window.open(
-                    "https://work-management-a2je0af6x-amitkumar256.vercel.app/login"
-                  )
+                  window.open("https://work-management-nu.vercel.app/login")
                 }
               >
                 GO Live
