@@ -60,7 +60,7 @@ const About = () => {
           <div className=" bg-gradient-to-r from-orange-400 to-red-600 hover:scale-105 transition-transform duration-500">
             <Image
               className="p-1"
-              src={"/Images/profile.jpeg"}
+              src={"/Images/profiles.jpg"}
               height={320}
               width={320}
             />
